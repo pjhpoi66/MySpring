@@ -28,7 +28,7 @@ public class MybatisConfig {
     @Autowired
     private DataSource dataSource;
 
-    @Value("${cagos.datasource.sql-folder}")
+    @Value("${joonghos.datasource.sql-folder}")
     private String sqlFolder;
 
     @Bean
